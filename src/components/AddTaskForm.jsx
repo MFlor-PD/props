@@ -18,6 +18,7 @@ const AddTaskForm = ({ addTask }) => {
                 placeholder="Add a new task"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
+                style={{ marginRight: '12px' }}
             />
             <button type="submit">Add Task</button>
         </form>

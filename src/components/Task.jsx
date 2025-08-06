@@ -14,7 +14,7 @@ const Task = ({ task, toggleTaskCompleted, deleteTask }) => {
       <span onClick={() => toggleTaskCompleted(task.id)} style={{ flex: 1 }}>
         {task.text}
       </span>
-      <button onClick={() => deleteTask(task.id)} style={{ marginLeft: '8px' }}>
+      <button onClick={() => deleteTask(task.id)} style={{ marginLeft: '12px' }}>
         ❌
       </button>
     </li>
